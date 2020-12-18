@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bitter&display=swap');
+/* SELECTORES DE ETIQUETAS HTML */
+
+body{
+background-color: yellow;
+font-family: 'Bitter', serif;
+}
+
+h1 {
+  color: white;
+  font-family: 'Alfa Slab One', cursive;
+  background-color: red;
+}

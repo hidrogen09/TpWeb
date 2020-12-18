@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Coda:wght@800&display=swap');
+/* SELECTORES DE ETIQUETAS*/
+h1, h3{
+  font-family: 'Coda', cursive;
+  font-size: 48px;
+  padding: 10px;
+}
+
+h6{
+  padding: 10px;
+}
+
+h5,p,a{
+  font-family: 'Antic Slab', serif;
+
+}
+/* SELECTORES PERSONALIZADOS*/
+.contenedor{
+  width: 70%;
+  background-color: white;
+  margin: 50px auto 50px auto; /*escribiendo solo dos anda*/
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.borde-foto{
+  border: 2px solid black;
+  border-radius: 600px;
+}
