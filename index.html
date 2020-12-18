@@ -1,0 +1,2552 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="css/scrollup.css">
+  <link rel="stylesheet" href="css/estilos-ej1.css">
+  <link rel="icon" type="image/png" href="img/Plogo.png">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <div class="container orange lighten-4">
+
+    <title>Trabajo Final WEB</title>
+    <div class="">
+      <!--ENCABEZADO-->
+      <div class="row">
+        <div class="">
+          <h1 class="red-text text-darken-4">Martin Fortain</h1>
+        </div>
+      </div>
+      <!--MENU-->
+      <div class="row">
+        <div class="s12">
+          <nav>
+            <div class="nav-wrapper">
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="left hide-on-med-and-down">
+                <li><a href="#tp1">TP 1</a></li>
+                <li><a href="#tp2">TP 2</a></li>
+                <li><a href="#tp3">TP 3</a></li>
+                <li><a href="#tp4">TP 4</a></li>
+                <li><a href="#tp5">TP 5</a></li>
+                <li><a href="#tpfinal">TP FINAL</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#tp1">TP 1</a></li>
+          <li><a href="#tp2">TP 2</a></li>
+          <li><a href="#tp3">TP 3</a></li>
+          <li><a href="#tp4">TP 4</a></li>
+          <li><a href="#tp5">TP 5</a></li>
+          <li><a href="#tpfinal">TP FINAL</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <!--PORTADA-->
+    <div class="row">
+      <div class="s12">
+        <div class="carousel" >
+          <a class="carousel-item" href="#tp1"><img src="img/Plogo.png"></a>
+          <a class="carousel-item" href="img/tp1.jpg"><img src="img/tp1.jpg">TP 1</a>
+          <a class="carousel-item" href="img/tp2.jpg"><img src="img/tp2.jpg">TP 2</a>
+          <a class="carousel-item" href="img/tp3-1.jpg"><img src="img/tp3-1.jpg"> Aventura Grafica</a>
+          <a class="carousel-item" href="img/tp5-1.jpg"><img src="img/tp5-1.jpg">Videojuego POO</a>
+        </div>
+        <div class="center">
+          <h6>Aqui nos encontraremos con los diferentes trabajos desarrollados durante el año 2020 en la materia Tecnología multimedial 1</h6>
+        </div>
+      </div>
+
+      <!--tp1 una columna-->
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel red lighten-1"><h3 id="tp1">Trabajo Práctico 1</h3></div>
+          <div class="center">
+            <img src="img/tp1.jpg" alt="tp1" class="responsive-img">
+          </div>
+          <h6>El Trabajo Práctico N°1 consistó en realizar un circulo cromatico, comenzando por conocimientos basicos de programación en proccesing</h6>
+          <div class="row">
+            <div class="col s12">
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><img src="img/Plogo.png" alt="flecha" class="responsive-img" width="25"><a href="https://github.com/hidrogen09/tecnomultimedia/tree/tp1"class="codigotp1">Código Processing</a></div>
+                </div>
+              </li>
+            </ul>
+              <ul class="tabs">
+                <li class="tab col s12"><a href="#test1">tp1</a></li>
+              </ul>
+            </div>
+            <div id="test1" class="col s12 red lighten-2"><span><pre><code>
+           void setup () {
+              size(400, 400);
+            }
+
+            void draw() {
+              background(255);
+              //noStroke();
+
+              fill(0);
+              line(200, 50, 275, 80);
+              line(275, 80, 325, 130);
+              line(325, 130, 350, 200);
+              line(350, 200, 325, 270);
+              line(325, 270, 275, 320);
+              line(275, 320, 200, 350);
+              line(200, 350, 125, 320);
+              line(125, 320, 75, 270);
+              line(75, 270, 50, 200);
+              line(50, 200, 80, 125);
+              line(80, 125, 130, 75);
+              line(130, 75, 200, 50);
+
+              fill (255, 255, 0);
+              ellipse(200, 50, 50, 50);
+              fill (255, 198, 0);
+              ellipse(275, 80, 50, 50);
+              fill (255, 166, 0);
+              ellipse(325, 130, 50, 50);
+              fill (255, 90, 4);
+              ellipse(350, 200, 50, 50);
+              fill (255, 0, 0);
+              ellipse(325, 270, 50, 50);
+              fill (206, 0, 99);
+              ellipse(275, 320, 50, 50);
+              fill (128, 0, 128);
+              ellipse(200, 350, 50, 50);
+              fill (132, 8, 255);
+              ellipse(125, 320, 50, 50);
+              fill (0, 0, 255);
+              ellipse(75, 270, 50, 50);
+              fill (0, 160, 140);
+              ellipse(50, 200, 50, 50);
+              fill (0, 255, 0);
+              ellipse(80, 125, 50, 50);
+              fill (222, 255, 0);
+              ellipse(130, 75, 50, 50);
+            }</code></pre></span></div>
+          </div>
+        </div>
+        <!--tp2-->
+        <div class="row">
+          <div class="col1 s6">
+              <div class="card-panel red lighten-1"><h3 id="tp2">Trabajo Práctico 2</h3></div>
+            <div class="center">
+              <img src="img/tp2.jpg" alt="tp2" class="responsive-img" width="500">
+              <img src="img/tp2.gif" alt="tp02" class="responsive-img" width="278">
+            </div>
+            <h6>El Trabajo Práctico N°2 consistó en realizar una presentación de creditos de libre eleccion. En este caso fue desarrollado en relacion al videojuego Red Dead Redemption 2, desarrollado por Rockstar Games</h6>
+            <div class="row">
+              <div class="col s12">
+                <ul class="collapsible">
+                  <li>
+                  <div class="collapsible-header"><img src="img/Plogo.png" alt="flecha" class="responsive-img" width="25"><a href="https://github.com/hidrogen09/tecnomultimedia/tree/tp2"class="codigotp2">Código Processing</a></div>
+                  </div>
+                </li>
+              </ul>
+                <ul class="tabs">
+                  <li class="tab col s12"><a href="#test1">tp2</a></li>
+                </ul>
+              </div>
+              <div id="test1" class="col s12 green lighten-2"><span><pre><code>
+                //Presentacion
+                //Juego
+                //Protagonista
+                //Secundarios
+                //Plataformas
+
+
+                PFont letra;
+                PImage img1;
+                PImage img2;
+                PImage img3;
+                int cir = 50;
+                float movtext1 = -50;
+                int movtext2 = -700;
+                int movtext3 = 1600;
+                float movtext4 = -1960;
+                float movtext5 = -1890;
+                float movtext6 = 4300;
+                float movtext7 = 4380;
+                float imagenmov1 = 600;
+                float imagenmov2 = -740;
+
+
+
+                void setup(){
+                  size (440,775);
+
+                  img1 = loadImage ("red.png");
+                  img2 = loadImage ("logo.png");
+                  img3 = loadImage ("rockstar.png");
+
+                  letra = loadFont("CalisMTBol-48.vlw");
+
+                }
+
+                void draw(){
+
+                  noCursor();
+                  background(255,0,0);
+                  noStroke();
+
+
+                  image(img1, imagenmov1, 0);
+
+
+                  fill(255,255,255);
+                  textFont(letra);
+                  textSize(45);
+                  text("Rockstar Games\n     presenta:", movtext1 , 150);
+
+
+                  image(img2, 20, imagenmov2, 422, 140);
+
+
+                  fill(200,0,0);
+                  ellipse(2200,height/2,cir,cir);
+                  fill(255,255,255);
+                  textSize(35);
+                  text(" Protagonista:", movtext3 , 300);
+                  textSize(25);
+                  text("    Arthur Morgan", movtext3, 335);
+
+
+                  fill(255,255,255);
+                  textSize(30);
+                  text("  Protagonistas\n   secundarios:", 120, movtext4);
+                  textSize(20);
+                  text("       Sadie Adler,\n Dutch Van der Linde", 130, movtext5);
+
+                  fill(0);
+                  textSize(30);
+                  text ("Dirigido por:",40,movtext6);
+                  textSize(25);
+                  text("Steve Martin\nAndrew Semple\nAlastair Dukes\nIan Lane Davis\nKen Davis
+                  \nKevin Hoare\nDaniel Smith\nJeniffer Kolbe", 40, movtext7);
+
+
+
+                  fill(0);
+                  ellipse(-4300, height/2, cir,cir);
+
+                  noFill();
+                  image(img3, mouseX, mouseY, 50, 50);
+
+
+
+                  cir = cir +3;
+
+                  imagenmov1 = imagenmov1 -1;
+                  imagenmov2 = imagenmov2 +1.3;
+
+                  movtext1 = movtext1 +1;
+                  movtext2 = movtext2 +1;
+                  movtext3 = movtext3 -1;
+                  movtext4 = movtext4 +1.2;
+                  movtext5 = movtext5 +1.2;
+                  movtext6 = movtext6 -1.5;
+                  movtext7 = movtext7 -1.5;
+
+                  println (mouseX, mouseY);
+
+                }</code></pre></span></div>
+              </div>
+            </div>
+
+
+
+
+            <!--tp3-->
+            <div class="row">
+              <div class="col s12">
+                  <div class="card-panel red lighten-1"><h3 id="tp3">Trabajo Práctico 3</h3></div>
+                <div class="col s12">
+                  <div class="center">
+                    <img src="img/tp3-1.jpg" alt="tp3-1" class="responsive-img" width="500">
+                    <img src="img/tp3-2.jpg" alt="tp3-2" class="responsive-img" width="500">
+                    <img src="img/tp3-3.jpg" alt="tp3-3" class="responsive-img" width="500">
+                    <img src="img/tp3-4.jpg" alt="tp3-4" class="responsive-img" width="500">
+                    <img src="img/mapaAventura.jpg" alt="mapa" class="responsive-img" width="1000">
+                  </div>
+                </div>
+                <h6>En el Trabajo Práctico Nº 3 constaba de crear una aventura gráfica interactiva, la cual su temática era libre. En este trabajo la aventura se desarrollo a partir del cuento "Barba Azul" escrito por Charles Perrault. En el se debia incluir: elementos visuales, mapas de bits ,tipografía, controladores (botones) para navegar el relato, una pantalla de créditos.</h6>
+                <h6>Al ser una aventura gráfica, hay momentos en los que se deben elegir opciones dentro de la historia, la cual tomara un rumbo distinto segun que se elija.</h6>
+                <ul class="collapsible">
+                  <li>
+                  <div class="collapsible-header"><img src="img/Plogo.png" alt="flecha" class="responsive-img" width="25"><a href="https://github.com/hidrogen09/tecnomultimedia/tree/tp3"class="codigotp3">Código Processing</a></div>
+                  </div>
+                </li>
+              </ul>
+
+              <div class="row">
+                <div class="left col s12">
+                  <ul id="tabs-swipe-demo" class="tabs">
+                    <li class="tab col s3"><a class="active" href="#test-swipe-1">tp3</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-2">draw</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-3">mousePressed</a></li>
+                    <li class="tab col s3"><a href="#test-swipe-4">Codigo de pantallas</a></li>
+                  </ul>
+                  <div id="test-swipe-1" class="col s12 blue lighten-2"><span><pre><code>
+                    PFont fuente;
+                    int pantalla = 1;
+                    float movtext1 = 768;
+                    int posRep = 730;
+
+                    PImage img1, img2, img3, img4, img5, img6, img7, img8, img9, img10,
+                    img11, img12, img13, img14, img15, img16, img17, img18, img19, img20;
+
+
+                    import ddf.minim.*;
+                    Minim gestor;
+                    AudioPlayer track1;
+
+                    void setup() {
+                      size(1024, 768);
+                      fuente = loadFont("Calibri-Italic-48.vlw");
+                      textFont(fuente);
+                      background(200);
+
+                      //musica
+                      gestor = new Minim(this);
+                      track1 = gestor.loadFile("track1.mp3");
+                      track1.loop();
+
+                      //imagenes
+                      img1 = loadImage("pantalla1.jpg");
+                      img2 = loadImage("pantalla2.jpg");
+                      img3 = loadImage("pantalla3.png");
+                      img4 = loadImage("pantalla4.png");
+                      img5 = loadImage("pantalla5.png");
+                      img6 = loadImage("pantalla6.jpg");
+                      img7 = loadImage("pantalla7.jpg");
+                      img8 = loadImage("pantalla8.jpg");
+                      img9 = loadImage("pantalla9.jpg");
+                      img10= loadImage("pantalla10.png");
+                      img11= loadImage("pantalla11.jpg");
+                      img12= loadImage("pantalla12.png");
+                      img13= loadImage("pantalla13.png");
+                      img14= loadImage("pantalla14.png");
+                      img15= loadImage("pantalla15.png");
+                      img16= loadImage("pantalla16.jpg");
+                      img17= loadImage("pantalla17.jpg");
+                      img18= loadImage("pantalla18.png");
+                      img19= loadImage("pantalla19.png");
+                      img20= loadImage("pantalla20.jpg");
+                    }
+
+                    void keyPressed() {
+                      if (key == 'r') {
+                        pantalla = 2;
+                      }
+                    }</code></pre></span></div>
+                    <div id="test-swipe-2" class="col s12 red lighten-2"><span><pre><code>
+                    void draw() {
+
+                      if (pantalla==1) {
+                        pantalla1();
+                      } else
+                      if (pantalla==2) {
+                        pantalla2();
+                      } else
+                      if (pantalla==3) {
+                        pantalla3();
+                      } else
+                      if (pantalla==4) {
+                        pantalla4();
+                      } else
+                      if (pantalla==5) {
+                        pantalla5();
+                      } else
+                      if (pantalla==6) {
+                        pantalla6();
+                      } else
+                      if (pantalla==7) {
+                        pantalla7();
+                      } else
+                      if (pantalla==8) {
+                        pantalla8();
+                      } else
+                      if (pantalla==9) {
+                        pantalla9();
+                      } else
+                      if (pantalla==10) {
+                        pantalla10();
+                      } else
+                      if (pantalla==11) {
+                        pantalla11();
+                      } else
+                      if (pantalla==12) {
+                        pantalla12();
+                      } else
+                      if (pantalla==13) {
+                        pantalla13();
+                      } else
+                      if (pantalla==14) {
+                        pantalla14();
+                      } else
+                      if (pantalla==15) {
+                        pantalla15();
+                      } else
+                      if (pantalla==16) {
+                        pantalla16();
+                      } else
+                      if (pantalla==17) {
+                        pantalla17();
+                      } else
+                      if (pantalla==18) {
+                        pantalla18();
+                      } else
+                      if (pantalla==19) {
+                        pantalla19();
+                      } else
+                      if (pantalla==20) {
+                        pantalla20();
+                      }
+                    }</code></pre></span></div>
+                    <div id="test-swipe-3" class="col s12 green lighten-2"><span><pre><code>
+                    void mousePressed() {
+                      //pantalla1
+                      if (pantalla==1) {
+                        if (mousePressed == true) {
+                          pantalla = 2;
+                        }
+                      } else if (pantalla==2) {
+                        movtext1 = 770;
+
+                        if (mousePressed == true) {
+                          pantalla = 3;
+                        }
+                      } else if (pantalla==3) {
+                        //Casorio
+                        if (mousePressed == true) {
+                          pantalla = 4;
+                        }
+                        //Niega
+                      } else if (pantalla==4) {
+
+                        if (mousePressed == mouseX > 200 && mouseX < 300 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 5;
+                        }
+                        //Acepta
+                      }
+                      if (pantalla==4) {
+
+                        if (mousePressed == mouseX > 800 && mouseX < 900 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 6;
+                        }
+                      } else if (pantalla==6) {
+                        //viaje
+                        if (mousePressed == true) {
+                          pantalla = 7;
+                        }
+                      }//con él
+                      if (pantalla==7) {
+
+                        if (mousePressed == mouseX > 200 && mouseX < 300 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 8;
+                        }
+                        //solo
+                      }
+                      if (pantalla==7) {
+
+                        if (mousePressed == mouseX > 800 && mouseX < 900 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 9;
+                        }
+                      } else
+                      if (pantalla==9) {
+
+                        if (mousePressed == true) {
+                          pantalla = 10;
+                        }
+                      } else
+                      if (pantalla==10) {
+
+                        if (mousePressed == true) {
+                          pantalla = 11;
+                        }//llaves
+                      } else
+                      if (pantalla==11) {
+                        //no las usa
+                        if (mousePressed == mouseX > 200 && mouseX < 300 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 12;
+                        }
+                        //llega del viaje
+                      } else
+                      if (pantalla==12) {
+
+                        if (mousePressed == true) {
+                          pantalla = 13;
+                        }//pregunta
+                      } else
+                      if (pantalla==13) {
+
+                        if (mousePressed == true) {
+                          pantalla = 18;
+                        }
+                      } else
+                      if (pantalla==18) {
+
+                        if (mousePressed == true) {
+                          pantalla = 19;
+                        }
+                      } else
+                      if (pantalla==19) {
+
+                        if (mousePressed == true) {
+                          pantalla = 20;
+                        }
+
+
+
+                        //las usa
+                      }
+                      if (pantalla==11) {
+
+                        if (mousePressed == mouseX > 800 && mouseX < 900 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 14;
+                        }
+                      } else
+                      if (pantalla==14) {
+
+                        if (mousePressed == true) {
+                          pantalla = 15;
+                        }
+
+                        //la mata
+                      } else
+                      if (pantalla==15) {
+                        if (mousePressed == mouseX > 200 && mouseX < 300 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 20;
+                        }
+
+                        //hermanos
+                      }
+                      if (pantalla==15) {
+                        if (mousePressed == mouseX > 800 && mouseX < 900 && mouseY > 650 && mouseY < 700) {
+                          pantalla = 16;
+                        }
+                      } else
+                      if (pantalla==16) {
+
+                        if (mousePressed == true) {
+                          pantalla = 17;
+                        }
+                      }
+                    }</code></pre></span></div>
+
+                    <div id="test-swipe-4" class="col s12 yellow lighten-2"><span><pre><code>
+                    void pantalla1() {
+                      image(img1, 0, 0, 1024, 768);
+                      noStroke();
+                      fill(0, 0, 0, 85);
+                      rect(350, 100, 300, 90);
+                      fill(255);
+                      textSize(50);
+                      text("Barba Azul", height/2, 150);
+                      textSize(15);
+                      text(" Charles Perrault, 1695", height/2, 170);
+                      fill(255);
+                      textSize(20);
+                      text("clickea para comenzar tu aventura", 350, 750);
+                    }
+                  </code></pre></span>
+                  <span><pre><code>
+                  void pantalla2() {
+                    image(img2, 0, 0, 1024, 768);
+                    fill(255);
+                    textSize(30);
+                    text("Escrito por: Charles Perrault", height/2, movtext1);
+                    textSize(20);
+                    text("Protagonistas:  Barba Azul\n                          "+
+                    "Doncella\n"+
+                    "Musica:             Ennio Morricone\n"+
+                    "Realizado por:   Martin Fortain\n"+
+                    "Realizado para: LMM1\n"+
+                    "Edición:             Processing\n                           "+
+                    "Photoshop", height/2, movtext1+60);
+
+                    if (movtext1 < 900) {
+                      movtext1 = movtext1 - 2;
+                    }
+                  }
+                </code></pre></span>
+                <span><pre><code>
+                void pantalla3() {
+                  image(img3, 0, 0, 1024, 768);
+                  fill(0);
+                  textSize(15);
+                  text("Barba azul era un hombre lleno de riquezas de la ciudad, poseia un gran
+                  castillo que se encontraba\nen un lugar muy codicioso."+
+                  "Por una extraña razon era un hombre el cual habia enviudado 7 veces \npero
+                  siempre se atribuyeron los hecho a situaciones naturales.\n"+
+                  "En este día, Barba Azul se propuso buscar una nueva esposa a la cual debia
+                  seducir por sus enormes riquezas,\n
+                  ya que, no era un hombre muy atractivo", 100, 50);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla4() {
+                  image(img4, 0, 0, 1024, 768);
+                  textSize(20);
+                  fill(255);
+                  text("Finalmente barba azul encuentra a dos hermanas no muy convencidas
+                  \nde la propuesta de casarse con el.\n"+
+                  "¿Aceptas casarte con Barba Azul?", 150, 350);
+                  textSize(20);
+                  text("Negarse", 215, 680);
+                  text("Acepto", 820, 680);
+                  fill(200, 200, 200, 70);
+                  rect(200, 650, 100, 50);
+                  fill(200, 200, 200, 70);
+                  rect(800, 650, 100, 50);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla5() {
+                  image(img5, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("Pese a la respuesta negativa de las hermanas,\nBarba Azul continua su busqueda.\n"+
+                  "Aunque nunca tuvo la suerte y al pasar los años,\nmurió en soledad.", 100, 100);
+                  textSize(15);
+                  text("Presiona 'R' para volver a empezar", height/2, posRep);
+                } </code></pre></span>
+                <span><pre><code>
+                  void pantalla6() {
+                  image(img6, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("Ella acepta y rapidamente Barba Azul organiza\nuna boda en su castillo.", 400, 70);
+                }</code></pre></span>
+                <span><pre><code>
+                  void pantalla7() {
+                  image(img7, 0, 0, 1035, 768);
+                  fill(0);
+                  textSize(20);
+                  text("Pasaron los meses juntos y a Barba Azul le surge un viaje a la\n"+
+                  "ciudad vecina. Le pregunta a la Doncella si quiere ir con el", 100, 100);
+                  fill(200, 200, 200, 90);
+                  rect(200, 650, 100, 50);
+                  fill(200, 200, 200, 90);
+                  rect(800, 650, 100, 50);
+                  fill(255);
+                  textSize(20);
+                  text("se van\njuntos", 218, 670);
+                  text("Se queda", 807, 680);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla8() {
+                  image(img8, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("Se van de viaje juntos pero por la noche\nuna fuerte tormenta los hace\n"+
+                  "caer por un barranco y murieron.", 500, 400);
+                  textSize(15);
+                  text("Presiona 'R' para volver a empezar", height/2, posRep);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla9() {
+                  image(img9, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("La doncella decide quedarse en el castillo, entonces\n"+
+                  "Barba Azul le da llaves pero este le aclara que no debe\n"+
+                  "usar una llave en especifico."+
+                  "Ella asiente y Barba Azul\n"+
+                  "parte hacia su viaje.", 100, 200);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla10() {
+                  image(img10, 0, 0, 1024, 768);
+                  textSize(30);
+                  fill(255);
+                  text("Para hacer la espera de su marido mas\n llevadera,"+
+                  "la doncella invita a sus\nfamiliares al castillo", 300, 200);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla11() {
+                  image(img11, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("En la noche la doncella observa el llavero y\n"+
+                  "le llama la atencion la llave prohibida.\n¿Intenta abrir la llave?", 50, 200);
+                  textSize(20);
+                  text("No la abre", 202, 680);
+                  text("La abre", 815, 680);
+                  fill(200, 200, 200, 70);
+                  rect(200, 650, 100, 50);
+                  fill(200, 200, 200, 70);
+                  rect(800, 650, 100, 50);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla12() {
+                  image(img12, 0, 0, 1024, 768);
+                  textSize(30);
+                  fill(255);
+                  text("Sigue con la reunion familiar y\n"+
+                  "se olvida de las llaves por el momento", 200, 200);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla13() {
+                  image(img13, 0, 0, 1024, 768);
+                  textSize(30);
+                  fill(255);
+                  text("Al poco tiempo Barba Azul\nvuelve del viaje y se\n"+
+                  "reencuentra con su esposa,\n"+
+                  "quien lo estaba esperando", 65, 390);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla14() {
+                  image(img14, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("No aguantó su curiosidad y abrió la puerta.\n"+
+                  "Lo que llevo a descubrir el secreto de Barba Azul.\n"+
+                  "Escondia los cuerpos de sus 7 esposas muertas\n"+
+                  "que extrañamente habian fallecido", 50, 200);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla15() {
+                  image(img15, 0, 0, 1024, 768);
+                  textSize(30);
+                  fill(255);
+                  text("Barba Azul, que justo\nvolvio de su viaje,\n"+
+                  "descubre a su mujer\ndentro de la "+
+                  "habitacion\ncon los cuerpos", 30, 200);
+                  textSize(20);
+                  text("La mata", 210, 680);
+                  text("Se salva", 810, 680);
+                  fill(200, 200, 200, 70);
+                  rect(200, 650, 100, 50);
+                  fill(200, 200, 200, 70);
+                  rect(800, 650, 100, 50);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla16() {
+                  image(img16, 0, 0, 1024, 768);
+                  textSize(30);
+                  fill(255);
+                  text("En ese momento los hermanos justo\n"+
+                  "pasan por la habitacion y\nla encuentran en peligro...", 150, 100);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla17() {
+                  image(img17, 0, 0, 1024, 768);
+                  noStroke();
+                  fill(0, 0, 0, 85);
+                  rect(-5, 300, 1030, 170);
+                  textSize(40);
+                  fill(255);
+                  text("Los hermanos matan a Barba Azul\n y"+
+                  "logran liberar a su hermana\n"+
+                  "de esa sombría habitación. FIN", 200, 350);
+                  textSize(15);
+                  text("Presiona 'R' para ver los creditos", height/2, posRep);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla18() {
+                  image(img18, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("   Barba Azul al pedirle\n  las llaves,"+
+                  "la doncella\n pregunta que"
+                  +"hay en\nla puerta prohibida", 650, 200);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla19() {
+                  image(img19, 0, 0, 1024, 768);
+                  textSize(25);
+                  fill(255);
+                  text("Comienzan una discusion porque \n"+
+                  "no quiere revelarle su secreto.\n"+
+                  "Ante la negacion de Barba Azul,\n"+
+                  "la doncella intenta\nabrir la puerta", 100, 450);
+                }</code></pre></span>
+                <span><pre><code>
+                void pantalla20() {
+                  image(img20, 0, 0, 1024, 768);
+                  textSize(35);
+                  fill(255);
+                  text("Barba Azul se queda sin opcion y mata a la\ndoncella antes de que pueda
+                  hacer algo.", 125, 200);
+                  textSize(15);
+                  text("Presiona 'R' para volver a empezar", height/2, posRep);
+                } </code></pre></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--tp4-->
+        <div class="row">
+          <div class="col s12">
+              <div class="card-panel red lighten-1"><h3 id="tp4">Trabajo Práctico 4</h3></div>
+            <div class="col s12">
+              <div class="center">
+                <img src="img/tp4-1.jpg" alt="tp4-1" class="responsive-img" width="800">
+                <img src="img/tp4-2.jpg" alt="tp4-2" class="responsive-img" width="800">
+
+              </div>
+            </div>
+
+            <h6>En el desarrollo del Trabajo Práctico N°4 lo que se trabajó es en el avance del tp3 que, si bien visualmente tiene el mismo resultado, este en su codigo se hizo uso de Arreglos y Funciones.</h6>
+
+            <ul class="collapsible">
+              <li>
+                  <div class="collapsible-header"><img src="img/Plogo.png" alt="flecha" class="responsive-img" width="25"><a href="https://github.com/hidrogen09/tecnomultimedia/tree/tp4"class="codigotp4">Código Processing</a></div>
+              </div>
+            </li>
+          </ul>
+
+
+
+          <div class="row">
+            <div class="col s12">
+              <ul id="tabs-swipe-demo" class="tabs">
+                <li class="tab col s2"><a href="#test-swipe-01">tp4</a></li>
+                <li class="tab col s2"><a href="#test-swipe-02">base</a></li>
+                <li class="tab col s2"><a href="#test-swipe-03">botones</a></li>
+                <li class="tab col s2"><a href="#test-swipe-04">imagenes</a></li>
+                <li class="tab col s2"><a href="#test-swipe-05">posicionDeTextos</a></li>
+                <li class="tab col s2"><a href="#test-swipe-06">textos</a></li>
+
+              </ul>
+            </div>
+            <div id="test-swipe-01" class="col s12 blue lighten-2"><span><pre><code>
+              int pantalla = 1;
+              int cantPantallas = 21;
+              int cantImagenes = 21;
+              int cantText = 34;
+              PImage [] imagenes = new PImage [cantImagenes];
+              PFont fuente;
+              String [][] texto = new String [cantPantallas][34];
+              int [][][] posTextos = new int [cantPantallas][cantText][2]; //posicion de textos
+              int [][][] botones = new int [cantPantallas][2][5];
+              int movtext = 610;//movimiento creditos
+
+              import ddf.minim.*;
+              Minim gestor;
+              AudioPlayer track1;
+
+              void setup() {
+                size (800, 600);
+                surface.setResizable(true);
+                gestor = new Minim(this);
+                track1 = gestor.loadFile("track1.mp3");
+                track1.loop();
+
+                fuente = loadFont("Calibri-Italic-48.vlw");
+                textFont(fuente);
+                background(200);
+                imagenes();
+                inicializarTextos();
+                arregloClick();
+              }</code></pre></span></div>
+              <div id="test-swipe-02" class="col s12 red lighten-2"><span><pre><code>
+              void draw () {
+                noStroke();
+                textFont(fuente);
+                image(imagenes[pantalla], 0, 0, width, height);
+
+                movtext = movtext -1;
+
+                //dibujar botones
+                if (pantalla == 1 ||pantalla == 4 ||pantalla == 7 ||pantalla == 11||pantalla == 15) {
+                  dibujarBotones(PorcentajeX(550), PorcentajeY(510));
+                  dibujarBotones(PorcentajeX(40), PorcentajeY(510));
+                }
+
+                //iniciar textos
+                imprimirTextosPorPantalla();
+                inicializarPosicionesDeTextos();
+
+                //  imprimirTextosPorPantalla(1, 255, 20); PARA CICLO FOR
+              }</code></pre></span></div>
+              <div id="test-swipe-03" class="col s12 green lighten-2"><span><pre><code>
+                int PorcentajeX(int valor) {
+                return round(map(valor, 0, 800, 0, width));
+              }
+              int PorcentajeY(int valor) {
+                return round(map(valor, 0, 600, 0, height));
+              }
+
+              void dibujarBotones(float x, float y) {
+                fill(0, 0, 0, 100);
+                rect (x, y, PorcentajeX(150), PorcentajeY (65));
+                return;
+              }
+
+
+
+              void arregloClick() {
+                int [] botones1 = {2, 40, 190, 520, 580}; //creditos
+                int [] botones2 = {3, 550, 700, 520, 580};
+                int [] botones4 = {5, 40, 190, 520, 580};
+                int [] botones5 = {6, 550, 700, 520, 580};
+                int [] botones6 = {8, 40, 190, 520, 580};
+                int [] botones7 = {9, 550, 700, 520, 580};
+                int [] botones8 = {12, 40, 190, 520, 580};
+                int [] botones9 = {14, 550, 700, 520, 580};
+                int [] botones10 = {20, 40, 190, 520, 580};
+                int [] botones11 = {16, 550, 700, 520, 580};
+                int [] botones12 = {4, 0, 800, 0, 600};
+                int [] botones13 = {7, 0, 800, 0, 600};
+                int [] botones14 = {10, 0, 800, 0, 600};
+                int [] botones15 = {11, 0, 800, 0, 600};
+                int [] botones16 = {15, 0, 800, 0, 600};
+                int [] botones17 = {13, 0, 800, 0, 600};
+                int [] botones18 = {18, 0, 800, 0, 600};
+                int [] botones19 = {19, 0, 800, 0, 600};
+                int [] botones20 = {20, 0, 800, 0, 600};
+                int [] botones21 = {17, 0, 800, 0, 600};
+
+
+                //pantallas de 2 botones
+                botones [1][0] = botones1;  //pantalla1
+                botones [1][1] = botones2;
+
+                botones [4][0] = botones4;  // pantalla4
+                botones [4][1] = botones5;
+
+                botones [7][0] = botones6;  // pantalla7
+                botones [7][1] = botones7;
+
+                botones [11][0] = botones8; // pantalla11
+                botones [11][1] = botones9;
+
+                botones [15][0] = botones10; // pantalla15
+                botones [15][1] = botones11;
+
+                //pantallas de avance
+                botones [3][0] = botones12;   //pantalla3
+                botones [6][0] = botones13;   //pantalla6
+                botones [9][0] = botones14;   //pantalla9
+                botones [10][0] = botones15;  //pantalla10
+                botones [12][0] = botones17;  //pantalla12
+                botones [13][0] = botones18;  //pantalla13
+                botones [14][0] = botones16;  //pantalla14
+                botones [16][0] = botones21;  //pantalla16
+                botones [18][0] = botones19;  //pantalla18
+                botones [19][0] = botones20;  //pantalla19
+              }
+
+              void mouseClicked() {
+                if (mouseX > PorcentajeX(botones[pantalla][0][1]) && mouseX < PorcentajeX(botones[pantalla][0][2]) && mouseY > PorcentajeY(botones[pantalla][0][3]) && mouseY < PorcentajeY(botones[pantalla][0][4])) {
+                  pantalla = botones[pantalla][0][0];
+                  movtext = 610;
+                } else if (botones[pantalla][1].length > 0) {
+                  if (mouseX > PorcentajeX(botones[pantalla][1][1]) && mouseX < PorcentajeX(botones[pantalla][1][2]) && mouseY > PorcentajeY(botones[pantalla][1][3]) && mouseY < PorcentajeY(botones[pantalla][1][4])) {
+                    pantalla = botones[pantalla][1][0];
+                  }
+                }
+              }
+              void keyPressed() {
+                if (key == 'r') {
+                  pantalla = 1;
+                }
+              }</code></pre></span></div>
+              <div id="test-swipe-04" class="col s12 yellow lighten-2"><span><pre><code>
+              void imagenes() {
+                for (int i=1; i < cantImagenes; i++) {
+                  imagenes[i] = loadImage("imagen" + i + ".jpg");
+                }
+              }</code></pre></span>
+            </div>
+            <div id="test-swipe-05" class="col s12 grey lighten-2"><span><pre><code>
+            void inicializarPosicionesDeTextos() {
+
+
+              posTextos[1][1][0] = PorcentajeX(height/2);      // Pantalla 1, Texto 1, PosX
+              posTextos[1][1][1] = PorcentajeY(140);          // Pantalla 1, Texto 1, PosY
+              posTextos[1][2][0] = PorcentajeX(height/2);    // Pantalla 1, Texto 2, PosX
+              posTextos[1][2][1] = PorcentajeY(170);        // Pantalla 1, Texto 2, PosY
+              posTextos[1][3][0] = PorcentajeX(600);       // Pantalla 1, Texto 3, PosY
+              posTextos[1][3][1] = PorcentajeY(550);      // Pantalla 1, Texto 3, PosY
+              posTextos[1][4][0] = PorcentajeX(60);      // Pantalla 1, Texto 3, PosY
+              posTextos[1][4][1] = PorcentajeY(550);    // Pantalla 1, Texto 3, PosY
+
+              posTextos[2][5][0] = PorcentajeX(height/2-20); //pantalla 2
+              posTextos[2][5][1] = PorcentajeY(movtext);
+              posTextos[2][6][0] = PorcentajeX(height/2-20);
+              posTextos[2][6][1] = PorcentajeY(movtext+100);
+              posTextos[2][12][0] = PorcentajeX(height/2+30);
+              posTextos[2][12][1] = PorcentajeY(580);
+
+              posTextos[3][7][0] = PorcentajeX(30); //pantalla 3
+              posTextos[3][7][1] = PorcentajeY(300);
+
+              posTextos[4][8][0] = PorcentajeX(50); //pantalla 4
+              posTextos[4][8][1] = PorcentajeY(200);
+              posTextos[4][9][0] = PorcentajeX(600);
+              posTextos[4][9][1] = PorcentajeY(550);
+              posTextos[4][10][0] = PorcentajeX(60);
+              posTextos[4][10][1] = PorcentajeY(550);
+
+              posTextos[5][11][0] = PorcentajeX(100); //pantalla 5
+              posTextos[5][11][1] = PorcentajeY(150);
+              posTextos[5][12][0] = PorcentajeX(height/2+30);
+              posTextos[5][12][1] = PorcentajeY(580);
+
+              posTextos[6][13][0] = PorcentajeX(50); //pantalla 6
+              posTextos[6][13][1] = PorcentajeY(70);
+
+              posTextos[7][14][0] = PorcentajeX(50); //pantalla 7
+              posTextos[7][14][1] = PorcentajeY(100);
+              posTextos[7][16][0] = PorcentajeX(600);
+              posTextos[7][16][1] = PorcentajeY(550);
+              posTextos[7][15][0] = PorcentajeX(80);
+              posTextos[7][15][1] = PorcentajeY(540);
+
+              posTextos[8][17][0] = PorcentajeX(50); //pantalla 8
+              posTextos[8][17][1] = PorcentajeY(200);
+              posTextos[8][12][0] = PorcentajeX(height/2+30);
+              posTextos[8][12][1] = PorcentajeY(580);
+
+              posTextos[9][18][0] = PorcentajeX(50); //pantalla 9
+              posTextos[9][18][1] = PorcentajeY(100);
+
+              posTextos[10][19][0] = PorcentajeX(100); //pantalla 10
+              posTextos[10][19][1] = PorcentajeY(100);
+
+              posTextos[11][20][0] = PorcentajeX(40); //pantalla 11
+              posTextos[11][20][1] = PorcentajeY(150);
+              posTextos[11][22][0] = PorcentajeX(600);
+              posTextos[11][22][1] = PorcentajeY(550);
+              posTextos[11][21][0] = PorcentajeX(60);
+              posTextos[11][21][1] = PorcentajeY(550);
+
+              posTextos[12][23][0] = PorcentajeX(200); //pantalla 12
+              posTextos[12][23][1] = PorcentajeY(200);
+
+              posTextos[13][24][0] = PorcentajeX(65); //pantalla 13
+              posTextos[13][24][1] = PorcentajeY(390);
+
+              posTextos[14][25][0] = PorcentajeX(50); //pantalla 14
+              posTextos[14][25][1] = PorcentajeY(200);
+
+              posTextos[15][26][0] = PorcentajeX(30); //pantalla 15
+              posTextos[15][26][1] = PorcentajeY(200);
+              posTextos[15][28][0] = PorcentajeX(600);
+              posTextos[15][28][1] = PorcentajeY(550);
+              posTextos[15][27][0] = PorcentajeX(60);
+              posTextos[15][27][1] = PorcentajeY(550);
+
+              posTextos[16][29][0] = PorcentajeX(150); //pantalla 16
+              posTextos[16][29][1] = PorcentajeY(100);
+
+              posTextos[17][30][0] = PorcentajeX(150); //pantalla 17
+              posTextos[17][30][1] = PorcentajeY(300);
+              posTextos[17][12][0] = PorcentajeX(height/2);
+              posTextos[17][12][1] = PorcentajeY(580);
+
+              posTextos[18][31][0] = PorcentajeX(400); //pantalla 18
+              posTextos[18][31][1] = PorcentajeY(150);
+
+              posTextos[19][32][0] = PorcentajeX(100); //pantalla 19
+              posTextos[19][32][1] = PorcentajeY(350);
+
+              posTextos[20][33][0] = PorcentajeX(100); //pantalla 20
+              posTextos[20][33][1] = PorcentajeY(200);
+              posTextos[20][12][0] = PorcentajeX(height/2+30);
+              posTextos[20][12][1] = PorcentajeY(580);
+            }</code></pre></span></div>
+
+            <div id="test-swipe-06" class="col s12 orange lighten-2"><span><pre><code>
+            void inicializarTextos() {
+              texto[1][1] = "Barba Azul";
+              texto[1][2] = "Charles Perrault, 1695";
+              texto[1][3] = "Iniciar";
+              texto[1][4] = "Creditos";
+              texto[2][5] = "Escrito por: Charles Perrault";
+              texto[2][6] = "Protagonistas:  Barba Azul\n                          "+
+              " Doncella\n"+
+              "Musica:             Ennio Morricone\n"+
+              "Realizado por:   Martin Fortain\n"+
+              "Realizado para: LMM1\n"+
+              "Edición:             Processing\n                           "+
+              "Photoshop";
+              texto[2][12] = "Presiona 'R' para volver";
+              texto[3][7] = "Barba azul era un hombre lleno de riquezas de la ciudad,
+              \nposeia un gran castillo que se encontraba\nen un lugar muy codicioso."+
+              "Por una extraña razon era un\nhombre el cual habia enviudado 7 veces
+              \npero siempre se atribuyeron los hecho a situaciones naturales.\n"+
+              "En este día, Barba Azul se propuso buscar una\nnueva esposa a la cual debia
+              seducir por sus enormes riquezas,\nya que, no era un hombre muy atractivo";
+              texto[4][8] = "Finalmente barba azul encuentra a\ndos hermanas no muy convencidas
+              \nde la propuesta de casarse con el.\n"+
+              "¿Aceptas casarte con Barba Azul?";
+              texto[4][9] = "Aceptar";
+              texto[4][10] = "Negarse";
+              texto[5][11] = "Pese a la respuesta negativa de las hermanas,\nBarba Azul continua su busqueda.\n"+
+              "Aunque nunca tuvo la suerte y al pasar los años,\nmurió en soledad.";
+
+              texto[5][12] = "Presiona 'R' para volver";
+
+
+              texto[6][13] = "Ella acepta y rapidamente Barba Azul organiza\nuna boda en su castillo.";
+              texto[7][14] = "Pasaron los meses juntos y a Barba Azul le surge un viaje a la\n"+
+              "ciudad vecina. Le pregunta a la Doncella si quiere ir con el";
+              texto[7][15] = "Se van\n juntos";
+              texto[7][16] = "Se queda";
+              texto[8][17] = "Se van de viaje juntos pero por la noche\nuna fuerte tormenta los hace\n"+
+              "caer por un barranco y murieron.";
+              texto[8][12] = "Presiona 'R' para volver";
+              texto[9][18] = "La doncella decide quedarse en el castillo, entonces\n"+
+              "Barba Azul le da llaves pero este le aclara que no debe\n"+
+              "usar una llave en especifico."+
+              "Ella asiente y Barba Azul\n"+
+              "parte hacia su viaje.";
+              texto[10][19] = "Para hacer la espera de su marido mas\nllevadera,"+
+              "la doncella invita a sus\nfamiliares al castillo";
+              texto[11][20] = "En la noche la doncella observa el llavero y\n"+
+              "le llama la atencion la llave prohibida.\n¿Intenta abrir la llave?";
+              texto[11][21] = "No la abre";
+              texto[11][22] = "La abre";
+
+              texto[12][23] = "Sigue con la reunion familiar y\n"+
+              "se olvida de las llaves por el momento";
+              texto[13][24] = "Al poco tiempo Barba Azul\nvuelve del viaje y se\n"+
+              "reencuentra con su esposa,\n"+
+              "quien lo estaba esperando";
+              texto[14][25] = "No aguantó su curiosidad y abrió la puerta.\n"+
+              "Lo que llevo a descubrir el secreto de Barba Azul.\n"+
+              "Escondia los cuerpos de sus 7 esposas muertas\n"+
+              "que extrañamente habian fallecido";
+              texto[15][26] = "Barba Azul, que justo\nvolvio de su viaje,\n"+
+              "descubre a su mujer\ndentro de la "+
+              "habitacion\ncon los cuerpos";
+              texto[15][27] = "La mata";
+              texto[15][28] = "Se salva";
+              texto[16][29] = "En ese momento los hermanos justo\n"+
+              "pasan por la habitacion y\nla encuentran en peligro...";
+              texto[17][30] = "Los hermanos matan a Barba Azul\n y "+
+              "logran liberar a su hermana\n"+
+              "de esa sombría habitación. FIN";
+              texto[17][12] = "Presiona 'R' para volver";
+              texto[18][31] = "   Barba Azul al pedirle\n  las llaves,"+
+              "la doncella\n pregunta que"
+              +"hay en\nla puerta prohibida";
+              texto[19][32] = "Comienzan una discusion porque \n"+
+              "no quiere revelarle su secreto.\n"+
+              "Ante la negacion de Barba Azul,\n"+
+              "la doncella intenta\nabrir la puerta";
+              texto[20][33] = "Barba Azul se queda sin opcion y mata a la\ndoncella antes de que pueda hacer algo.";
+              texto[20][12] = "Presiona 'R' para volver";
+            }
+
+            /*
+            void imprimirTextosPorPantalla (int pantalla, color pColor, int tam) { //FOR para iniciar textos
+              fill(pColor);
+              textSize(tam);
+              for (int i= 1; i < cantText; i =34) {
+                text(texto[pantalla][i], posTextos[pantalla][i][0], posTextos[pantalla][i][1]);
+              }
+            }*/
+
+
+            void imprimirTextosPorPantalla () {
+              fill(255);
+              textSize(20);
+              if (pantalla == 1) { //inicio
+                textSize(30);
+                text(texto[1][1], posTextos[1][1][0], posTextos[1][1][1]);
+                text(texto[1][2], posTextos[1][2][0], posTextos[1][2][1]);
+                text(texto[1][3], posTextos[1][3][0], posTextos[1][3][1]); //boton 1
+                text(texto[1][4], posTextos[1][4][0], posTextos[1][4][1]);  //boton 2
+              } else if (pantalla == 2) {//creditos
+                text(texto[2][5], posTextos[2][5][0], posTextos[2][5][1]);
+                text(texto[2][6], posTextos[2][6][0], posTextos[2][6][1]);
+                fill(255, 255, 255, 75);
+                text(texto[2][12], posTextos[2][12][0], posTextos[2][12][1]);
+              } else if (pantalla == 3) {
+                textSize(15);
+                text(texto[3][7], posTextos[3][7][0], posTextos[3][7][1]);
+              } else if (pantalla == 4) {
+                text(texto[4][8], posTextos[4][8][0], posTextos[4][8][1]);
+                text(texto[4][9], posTextos[4][9][0], posTextos[4][9][1]);
+                text(texto[4][10], posTextos[4][10][0], posTextos[4][10][1]);
+              } else if (pantalla == 5) {
+                text(texto[5][11], posTextos[5][11][0], posTextos[5][11][1]);
+                text(texto[5][12], posTextos[5][12][0], posTextos[5][12][1]);
+              } else if (pantalla == 6) {
+                text(texto[6][13], posTextos[6][13][0], posTextos[6][13][1]);
+              } else if (pantalla == 7) {
+                text(texto[7][14], posTextos[7][14][0], posTextos[7][14][1]);
+                text(texto[7][16], posTextos[7][16][0], posTextos[7][16][1]);
+                text(texto[7][15], posTextos[7][15][0], posTextos[7][15][1]);
+              } else if (pantalla == 8) {
+                textSize(25);
+                text(texto[8][17], posTextos[8][17][0], posTextos[8][17][1]);
+                textSize(20);
+                text(texto[8][12], posTextos[8][12][0], posTextos[8][12][1]);
+              } else if (pantalla == 9) {
+                text(texto[9][18], posTextos[9][18][0], posTextos[9][18][1]);
+              } else if (pantalla == 10) {
+                text(texto[10][19], posTextos[10][19][0], posTextos[10][19][1]);
+              } else if (pantalla == 11) {
+                text(texto[11][20], posTextos[11][20][0], posTextos[11][20][1]);
+                text(texto[11][22], posTextos[11][22][0], posTextos[11][22][1]);
+                text(texto[11][21], posTextos[11][21][0], posTextos[11][21][1]);
+              } else if (pantalla == 12) {
+                text(texto[12][23], posTextos[12][23][0], posTextos[12][23][1]);
+              } else if (pantalla == 13) {
+                text(texto[13][24], posTextos[13][24][0], posTextos[13][24][1]);
+              } else if (pantalla == 14) {
+                text(texto[14][25], posTextos[14][25][0], posTextos[14][25][1]);
+              } else if (pantalla == 15) {
+                text(texto[15][26], posTextos[15][26][0], posTextos[15][26][1]);
+                text(texto[15][28], posTextos[15][28][0], posTextos[15][28][1]);
+                text(texto[15][27], posTextos[15][27][0], posTextos[15][27][1]);
+              } else if (pantalla == 16) {
+                text(texto[16][29], posTextos[16][29][0], posTextos[16][29][1]);
+              } else if (pantalla == 17) {
+                textSize(25);
+                text(texto[17][30], posTextos[17][30][0], posTextos[17][30][1]);
+                text(texto[17][12], posTextos[17][12][0], posTextos[17][12][1]);
+              } else if (pantalla == 18) {
+                textSize(20);
+                text(texto[18][31], posTextos[18][31][0], posTextos[18][31][1]);
+              } else if (pantalla == 19) {
+                textSize(25);
+                text(texto[19][32], posTextos[19][32][0], posTextos[19][32][1]);
+              } else if (pantalla == 20) {
+                textSize(20);
+                text(texto[20][33], posTextos[20][33][0], posTextos[20][33][1]);
+                text(texto[20][12], posTextos[20][12][0], posTextos[20][12][1]);
+              }
+            }</code></pre></span></div>
+
+
+          </div>
+
+
+
+
+          <!--tp5-->
+          <div class="row">
+            <div class="col s12">
+                <div class="card-panel red lighten-1"><h3 id="tp5">Trabajo Práctico 5</h3></div>
+              <div class="col s12">
+                <div class="center">
+
+                  <div class="carousel">
+                    <a class="carousel-item" href="#p1"><img src="img/personaje0.png">personaje0</a>
+                    <a class="carousel-item" href="#p2"><img src="img/personaje1.png">personaje1</a>
+                    <a class="carousel-item" href="#p3"><img src="img/personaje2.png">personaje2</a>
+                    <a class="carousel-item" href="#p4"><img src="img/personaje3.png">personaje3</a>
+                    <a class="carousel-item" href="#p5"><img src="img/personaje4.png">personaje4</a>
+                    <a class="carousel-item" href="#cactus"><img src="img/cactus.png">cactus</a>
+                    <a class="carousel-item" href="#ave"><img src="img/ave.png">ave</a>
+
+                  </div>
+
+                  <img src="img/tp5juego.gif" alt="tp5-1" class="responsive-img" width="800">
+
+
+                </div>
+              </div>
+
+              <h6>El Trabajo Práctico nº5 consistió en desarrollar un videojuego, el cual se basó en programación orientada a objetos (POO). Este se debia relacionar con la historia de la aventura grafica y aclarar que pantallas se iban a reemplazar.
+              El juego en este caso consiste en recorrer, con el hermano de la Doncella, el camino hacia el castillo donde ella se encuentra en peligro. En dicho camino nos encontraremos con obstaculos (cactus y aves) los cuales debemos esquivar para evitar que la armadura se deteriore y asi lograr llegar.</h6>
+
+              <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><img src="img/Plogo.png" alt="flecha" class="responsive-img" width="25"><a href="https://github.com/hidrogen09/tecnomultimedia/tree/tp5"class="codigotp5">Código Processing</a></div>
+                </div>
+              </li>
+            </ul>
+
+
+
+            <div class="row">
+              <div class="col s12">
+                <ul id="tabs-swipe-demo" class="tabs z-depth-1">
+                  <li class="tab col s1,5"><a href="#test-swipe-001"> tp5 </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-002"> Armadura </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-003"> Ave </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-004"> Contador </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-005"> Juego </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-006"> Jugador </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-007"> Obstaculo </a></li>
+                  <li class="tab col s1,5"><a href="#test-swipe-008"> VideoJuego </a></li>
+
+                </ul>
+              </div>
+              <div id="test-swipe-001" class="col s12 blue lighten-2"><span><pre><code>
+              Juego juego;
+
+                void setup() {
+                  size(800, 600);
+                  juego = new Juego();
+                }
+
+                void draw() {
+                  frameRate(30);
+                  image(fondo, 0, 0, width, height);
+                  juego.dibujar();
+                }
+
+                void keyPressed() {
+                  juego.teclaPresionada();
+                } </code></pre></span></div>
+                <div id="test-swipe-002" class="col s12 red lighten-2"><span><pre><code>
+                class Armadura {
+                  int armadura, posX, posY;
+
+                  Armadura(int p_posX, int p_posY) {
+                    armadura = 101;
+                    posX = p_posX;
+                    posY = p_posY;
+                  }
+
+                  void dibujar() {
+                    textSize(20);
+                    fill(0);
+                    text("Armadura: "+ armadura +"%", posX+100, posY);
+                  }
+
+                  void bajarArmadura() {
+                    armadura--;
+                  }
+
+                  boolean haPerdido() {
+                    return armadura == 0; //perder cuando la armadura llega a 0
+                  }
+                } </code></pre></span></div>
+                <div id="test-swipe-003" class="col s12 green lighten-2"><span><pre><code>
+                class Ave{
+                  int Tam;
+                  int posX;
+                  int posY;
+
+                  Ave() {
+                    Tam = 100; //tamaño obstaculo
+                    posX = width; //posX
+                    posY = height - Tam; // posY
+                  }
+
+                  void mover() {
+                    posX -= 25; //velocidad de acercamiento de cactus
+                  }
+
+                  void dibujar() {
+                    image(ave, posX, posY-60, Tam-40, Tam-40);
+                  }
+                } </code></pre></span></div>
+                <div id="test-swipe-004" class="col s12 yellow lighten-2"><span><pre><code>
+                class Contador {
+                  int contador, posX, posY;
+
+                  Contador(int p_posX, int p_posY) {
+                    contador = 0;
+                    posX = p_posX;
+                    posY = p_posY;
+                  }
+
+                  void dibujar() {
+                    textSize(20);
+                    fill(0);
+                    text("Metros recorridos: "+ contador++, posX+100, posY);
+                  }
+
+                  void incrementar() {
+                    contador++;
+                  }
+                  boolean haGanado() {
+                    return contador == 1000; //llegar al castillo
+                  }
+                } </code></pre></span>
+              </div>
+              <div id="test-swipe-005" class="col s12 grey lighten-2"><span><pre><code>
+                PImage fondo, cactus, ave, personaje, castillo;
+                ArrayList < Obstaculo > obstaculos = new ArrayList < Obstaculo >();
+                  ArrayList < Ave > aves = new ArrayList < Ave >();
+
+
+                    class Juego {
+                      int status;
+                      VideoJuego videoJuego;
+
+                      Juego() {
+                        fondo = loadImage("fondo.jpg");
+                        castillo = loadImage("castillo.jpg");
+                        cactus = loadImage("cactus.png");
+                        ave = loadImage("ave.png");
+
+                        inicializar();
+                      }
+                      void dibujar() {
+                        if (status == 0) {
+                          dibujoPantallaInicio();
+                        } else if (status == 1) {
+                          dibujoVideoJuego();
+                        } else if (status == 2) {
+                          image(castillo, 0, 0, width, height);
+                          dibujoFin("¡Llegaste al castillo!");
+                        } else if (status == 3) {
+                          dibujoFin("¡La Armadura no resistió!");
+                        }
+                      }
+
+                      void teclaPresionada() {
+                        if (status == 0) {
+                          status = 1;
+                        } else if (status == 1) {
+                          videoJuego.teclaPresionada();
+                        } else if (status == 2) {
+                          inicializar();
+                        } else if (status == 3) {
+                          inicializar();
+                        }
+                      }
+                      void dibujoPantallaInicio() {
+                        textAlign(CENTER);
+                        fill(0);
+                        textSize(40);
+                        text("¡Hermano al rescate!", width/2, 80);
+                        textSize(15);
+                        text("Debes recorrer 1km hacia el castilo para salvar \na tu hermana
+                        del peligro del Barba Azul\n", width/2, height/2-120);
+                        fill(255);
+                        text("Saltas con  'barra espaciadora'", width/2, height-50);
+                        textSize(15);
+                        text("Advertencia: ¡Cuidado con la vegetacion del camino!", width/2, height-80);
+                        fill(255, 255, 255, 90);
+                        text("Presiona una Tecla para iniciar", width/2, height-20);
+                      }
+
+                      void dibujoVideoJuego() {
+                        videoJuego.dibujar(); //controlar Ganar o Perder
+                        if (videoJuego.controlarGanarOPerder() == 1) {
+                          status = 2;
+                        } else if (videoJuego.controlarGanarOPerder() == 2) {
+                          status = 3;
+                        }
+                      }
+
+                      void dibujoFin(String mensaje) {
+                        textAlign(CENTER);
+                        textSize(40);
+                        text(mensaje, width/2, height/2);
+                        textSize(25);
+                        text("Presiona una Tecla para volver a inicio", width/2, height/2+280);
+                      }
+
+                      void inicializar() {
+                        videoJuego = new VideoJuego();
+                        status = 0;
+                      }
+                    }  </code></pre></span></div>
+
+                    <div id="test-swipe-006" class="col s12 orange lighten-2"><span><pre><code>
+                    class Jugador {
+                      float tam;
+                      float x;
+                      float y;
+                      float yvel;
+                      float gravedad;
+                      int num;
+                      PImage [] personaje = new PImage[5];
+
+                      Jugador() {
+                        for (int i=0; i < personaje.length; i++) {
+                          personaje[i] = loadImage("personaje"+i+".png");
+                        }
+                        tam = 100; //tamaño personaje
+                        x = 50; //posX
+                        y = height - tam; //posY
+                        yvel = 0;
+                        gravedad = 3; //simulacion gravedad
+                      }
+
+                      void teclaPresionada() {
+                        if (y == height - tam) {
+                          yvel = -25; //altura del salto
+                        }
+                      }
+
+
+                      void saltar() {
+                        y += yvel; //salto
+                        yvel += gravedad; //caida
+                        y = constrain(y, 0, height - tam); //limite de caida al suelo
+                      }
+
+                      void dibujar() {
+                        image(personaje[num], x, y, 100, 100);
+                        num = num%4;
+                        if (frameCount%2==0) {
+                          num++;
+                        }
+                      }
+                      boolean choque(Obstaculo obstaculo) { //ubicacion de cactus al momento de choque
+                        float x1 = x + tam * 0.5;
+                        float y1 = y + tam * 0.5;
+                        float x2 = obstaculo.posX + obstaculo.Tam * 0.5;
+                        float y2 = obstaculo.posY + obstaculo.Tam * 0.5;
+                        return choque(x1, y1, tam, x2, y2, obstaculo.Tam-100);
+                      }
+                      boolean choque(Ave ave) { //ubicacion de ave al momento de choque
+                        float x1 = x + tam;
+                        float y1 = y + tam;
+                        float x2 = ave.posX + ave.Tam;
+                        float y2 = ave.posY + ave.Tam;
+                        return choque(x1, y1-200, tam, x2, y2-300, ave.Tam-50);
+                      }
+
+                      boolean choque (float x, float y, float d, float X, float Y, float D) {
+                        if ( dist(x, y, X, Y) <= (d/2)+(D/2)) {
+                          return true;
+                        }
+                        return false;
+                      }
+                    } </code></pre></span></div>
+                    <div id="test-swipe-007" class="col s12 blue lighten-2"><span><pre><code>
+                    class Obstaculo {
+                      int Tam;
+                      int posX;
+                      int posY;
+
+                      Obstaculo() {
+                        Tam = 100; //tamaño obstaculo
+                        posX = width; //posX
+                        posY = height - Tam; // posY
+                      }
+
+                      void mover() {
+                        posX -= 15; //velocidad de acercamiento de cactus
+                      }
+
+                      void dibujar() {
+                        image(cactus, posX, posY, Tam, Tam);
+                      }
+                    } </code></pre></span></div>
+                    <div id="test-swipe-008" class="col s12 red lighten-2"><span><pre><code>
+                    class VideoJuego {
+                      int cantidadObstaculos = 10;
+                      int tam = width/cantidadObstaculos;
+
+                      Jugador jugador;
+                      Contador contador;
+                      Armadura armadura;
+                      Obstaculo [] obstaculo = new Obstaculo [cantidadObstaculos];
+                      Ave [] ave = new Ave [cantidadObstaculos];
+
+                      VideoJuego() {
+                        inicializar();
+                      }
+
+                      void dibujar() {
+                        dibujoVideoJuego();
+                      }
+
+                      void dibujarObstaculo() {
+                        if (random(80) < 1) { //generar obstaculos
+                          obstaculos.add(new Obstaculo());
+                        }
+                        for (Obstaculo c : obstaculos) {
+                          c.mover();
+                          c.dibujar();
+                          if (jugador.choque(c)) {
+                            armadura.bajarArmadura();
+                          }
+                        }
+                      }
+                      void dibujarAve() {
+                        if (random(80) < 2) { //generar ave
+                          aves.add(new Ave());
+                        }
+                        for (Ave a : aves) {
+                          a.mover();
+                          a.dibujar();
+                          if (jugador.choque(a)) {
+                            armadura.bajarArmadura();
+                          }
+                        }
+                      }
+                      void teclaPresionada() {
+                        if (keyCode == ' ') {
+                          jugador.teclaPresionada();
+                        }
+                      }
+
+
+                      void dibujoVideoJuego() {
+                        dibujarObstaculo();
+                        dibujarAve();
+                        jugador.dibujar();
+                        contador.dibujar();
+                        armadura.dibujar();
+                        controlarGanarOPerder();
+                        jugador.saltar();
+                      }
+
+                      int controlarGanarOPerder() {
+                        if (contador.haGanado()) {
+                          return 1; //Ganar
+                        } else if (armadura.haPerdido()) {
+                          return 2; // Perder
+                        }
+                        return 0; //No pasa nada
+                      }
+
+                      void inicializar() {
+                        jugador = new Jugador();
+                        for (int i=0; i < cantidadObstaculos; i++ ) {
+                          obstaculo[i] = new Obstaculo();
+                        }
+                        for (int i=0; i < cantidadObstaculos; i++ ) {
+                          ave[i] = new Ave();
+                        }
+                        armadura = new Armadura(50, 100);
+                        armadura.bajarArmadura();
+                        contador = new Contador(50, 50);
+                        contador.incrementar();
+                      }
+                    } </code></pre></span></div>
+
+
+                  </div>
+
+
+
+
+
+
+                  <!--tpFINAL-->
+                  <div class="row">
+                    <div class="col s12">
+                        <div class="card-panel red lighten-1"><h3 id="tpfinal">Trabajo Práctico Final</h3></div>
+                      <div class="col s12">
+                        <div class="center">
+
+                          <div class="carousel">
+                            <a class="carousel-item" href="#tpfinal1"><img src="img/tpfinal-1.png">Doncella</a>
+                            <a class="carousel-item" href="#tpfinal2"><img src="img/tpfinal-2.png">Barba Azul</a>
+                            <a class="carousel-item" href="#tpfinal3"><img src="img/tpfinal-3.png">Camino</a>
+                            <a class="carousel-item" href="#tpfinal4"><img src="img/tpfinal-4.jpg">Castillo</a>
+
+                          </div>
+
+                          <img src="img/tpfinal.gif" alt="tpfinal" class="responsive-img" width="800">
+
+
+                        </div>
+                      </div>
+
+                      <h6>Por ultimo con encontramos con el Trabajo Práctico Final.</h6>
+                      <h6>Aquí se desarrolló la conversión de la aventura gráfica, programada con funciones y arreglos, a programación orientada a objetos. A su vez habia que incluir el videojuego del tp5, reemplazando las pantallas a las cuales referia de la historia. Por lo tanto, ahora la historia debe variar si en el juego se gana o se pierde.</h6>
+
+                      <ul class="collapsible">
+                        <li>
+                  <div class="collapsible-header"><img src="img/Plogo.png" alt="flecha" class="responsive-img" width="25"><a href="https://github.com/hidrogen09/tecnomultimedia/tree/tpfinal"class="codigotpfinal">Código Processing</a></div>
+                        </div>
+                      </li>
+                    </ul>
+
+
+
+                    <div class="row">
+                      <div class="col s12">
+                        <ul id="tabs-swipe-demo" class="tabs tabs-fixed-width z-depth-1">
+                          <li class="tab col s1"><a href="#test-swipe-0001"> tpfinal </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0002"> Armadura </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0003"> Ave </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0004"> Boton </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0005"> Contador </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0006"> Controlador </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0007"> Juego </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0008"> Jugador </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0009"> Obstaculo </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0010"> Pantalla </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0011"> Textos </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0012"> VideoJuego </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0013"> posicionCreditos </a></li>
+                          <li class="tab col s1"><a href="#test-swipe-0014"> resize </a></li>
+
+                        </ul>
+                      </div>
+<div id="test-swipe-0001" class="col s12 blue lighten-2"><span><pre><code>
+import processing.sound.*;
+Controlador controlador;
+
+void setup() {
+  size(800, 600);
+  surface.setResizable(true);
+  controlador = new Controlador(this);
+}
+
+void draw() {
+  background(200);
+  frameRate(30);
+  controlador.dibujar();
+}
+
+void mouseClicked() {
+  controlador.mouseClicked();
+}
+
+void keyPressed() {
+  controlador.teclaPresionada();
+} </code></pre></span></div>
+<div id="test-swipe-0002" class="col s12 red lighten-2"><span><pre><code>
+class Armadura {
+  int armadura, posX, posY;
+  Resize resize = new Resize();
+
+  Armadura(int p_posX, int p_posY) {
+    armadura = 105;
+    this.posX = p_posX;
+    this.posY = p_posY;
+  }
+
+  void dibujar() {
+    textSize(20);
+    fill(0);
+    text("Armadura: "+ armadura +"%", resize.PorcentajeX(posX+100),
+    resize.PorcentajeY(posY));
+  }
+
+  void bajarArmadura() {
+    armadura-=(5);
+  }
+
+  boolean haPerdido() {
+    return armadura == 0; //perder cuando la armadura llega a 0
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0003" class="col s12 green lighten-2"><span><pre><code>
+  class Ave {
+  int posX, posY, velocidad, tam;
+
+  Resize resize = new Resize();
+
+  Ave(int p_posX) {
+    this.posX = p_posX;
+    this.posY = 500;
+    velocidad = 20;
+    this.tam = 80;
+  }
+
+  void dibujar() {
+    image(ave, resize.PorcentajeX(posX), resize.PorcentajeY(posY-60),
+    resize.PorcentajeX(tam-40), resize.PorcentajeY(tam-40));
+    posX -= velocidad;
+  }
+
+  void moverEnX(int p_posX) {
+    posX = p_posX;
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0004" class="col s12 yellow lighten-2"><span><pre><code>
+class Boton {
+  Resize resize = new Resize();
+
+  int posX, posY, ancho, alto, pantallaAIr;
+  String texto;
+
+  Boton(String texto, int posX, int posY, int pantallaAIr) {
+    this.texto = texto;
+    this.posX = posX;
+    this.posY = posY;
+    this.pantallaAIr = pantallaAIr;
+    ancho = resize.PorcentajeX(150);
+    alto = resize.PorcentajeY(150);
+  }
+
+  void dibujar() {
+    fill(0, 0, 0, 100);
+    noStroke();
+    rect(resize.PorcentajeX(posX), resize.PorcentajeY(posY),
+     resize.PorcentajeX(150), resize.PorcentajeY(65));
+    fill(255);
+    textSize(20);
+    text(texto, resize.PorcentajeX(posX) + resize.PorcentajeX(15),
+     resize.PorcentajeY(posY) + resize.PorcentajeY(40));
+  }
+
+  int mouseClicked() {
+    if (mouseX > resize.PorcentajeX(posX) && mouseX <
+    resize.PorcentajeX(posX) + resize.PorcentajeX(ancho)
+    && mouseY > resize.PorcentajeY(posY) && mouseY <
+    resize.PorcentajeY(posY) + resize.PorcentajeY(alto) ) {
+      return pantallaAIr;
+    }
+    return -1;
+  }
+
+}</code></pre></span></div>
+<div id="test-swipe-0005" class="col s12 grey lighten-2"><span><pre><code>
+  class Contador {
+  int contador, posX, posY;
+  Resize resize = new Resize();
+
+
+  Contador(int p_posX, int p_posY) {
+    contador = 0;
+    this.posX = p_posX;
+    this.posY = p_posY;
+  }
+
+  void dibujar() {
+    textSize(20);
+    fill(0);
+    text("Metros recorridos: "+ contador++, resize.PorcentajeX(posX+100),
+    resize.PorcentajeY(posY));
+  }
+
+  void incrementar() {
+    contador++;
+  }
+  boolean haGanado() {
+    return contador == 1000; //llegar al castillo
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0006" class="col s12 orange lighten-2"><span><pre><code>class Controlador {
+  Juego juego;
+  Pantalla pantallaActual;
+  Creditos creditos;
+  int cantidadPantallas = 20;
+  Pantalla [] pantallas = new Pantalla [cantidadPantallas];
+  PImage [] fondos = new PImage [cantidadPantallas];
+  Textos textos = new Textos();
+  int pantalla;
+  Resize resize = new Resize();
+
+       //sonido
+  SoundFile track1;
+
+  Controlador(PApplet pApplet) {
+    this.track1 = new SoundFile(pApplet, "track1.mp3");
+    this.track1.play();
+    Boton boton1, boton2;
+
+    cargarFondos();
+
+
+    pantallas = new Pantalla [cantidadPantallas];
+    //Creo la pantalla 1
+    pantalla = 0;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+     resize.PorcentajeX (540), resize.PorcentajeY(480), 2);//creditos
+    boton2 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 1),
+     resize.PorcentajeX (150), resize.PorcentajeY (480), 1);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+     textos.getTextoParaPantalla(pantalla), boton1, boton2, null, null);
+
+    //Creo la pantalla 2 (creditos)
+    pantalla = 1;
+    creditos = new Creditos(400, 600);
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-70), resize.PorcentajeY (480), 0);
+    //creditos = new Creditos(textos.getTextoParaPantallaCreditos(pantalla, 0), 0, posY);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, creditos, null);
+
+
+
+    //Creo la pantalla 3 (inicio de aventura)
+    pantalla = 2;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 3);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 4 (busca esposa)
+    pantalla = 3;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+     resize.PorcentajeX (540), resize.PorcentajeY (480), 5);
+    boton2 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 1),
+    resize.PorcentajeX (150), resize.PorcentajeY (480), 4);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, boton2, null, null);
+
+    //Creo la pantalla 5 (se niega)
+    pantalla = 4;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+     resize.PorcentajeX (width/2-70), resize.PorcentajeY (480), 0);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 6 (acepta casarse)
+    pantalla = 5;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX(width/2-100), resize.PorcentajeY (480), 6);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 7 (barba azul se va de viaje)
+    pantalla = 6;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX(540), resize.PorcentajeY (480), 7);
+    boton2 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 1),
+    resize.PorcentajeX(150), resize.PorcentajeY (480), 8);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, boton2, null, null);
+
+    //Creo la pantalla 8 (se van juntos)
+    pantalla = 7;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-70), resize.PorcentajeY (480), 0);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 9 (se queda)
+    pantalla = 8;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-70), resize.PorcentajeY (480), 9);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 10 (invita gente al castillo)
+    pantalla = 9;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 10);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 11 (curiosidad la llave)
+    pantalla = 10;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX(540), resize.PorcentajeY (480), 13);
+    boton2 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 1),
+    resize.PorcentajeX(150), resize.PorcentajeY (480), 11);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, boton2, null, null);
+
+    //Creo la pantalla 12 (no la abre)
+    pantalla = 11;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 12);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 13 (llega barba)
+    pantalla = 12;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 17);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 14 (abre la puerta)
+    pantalla = 13;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 14);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 15 (la descubre barba) (inicio de juego)
+    pantalla = 14;
+    juego= new Juego();
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), null, null, null, juego);
+
+    //Creo la pantalla 16 (la salvan el hermano)(ganaria en el juego)
+    pantalla = 15;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 16);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 17 (fin)
+    pantalla = 16;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-70), resize.PorcentajeY (480), 0);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 18 (pregunta por la llave)
+    pantalla = 17;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 18);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 19 (barba se re enoja)
+    pantalla = 18;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 19);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+    //Creo la pantalla 20 (la mata)(perderia en el juego)
+    pantalla = 19;
+    boton1 = new Boton(textos.getTextoParaPantallaBoton(pantalla, 0),
+    resize.PorcentajeX (width/2-100), resize.PorcentajeY (480), 0);
+    pantallas[pantalla] = new Pantalla(fondos[pantalla],
+    textos.getTextoParaPantalla(pantalla), boton1, null, null, null);
+
+
+    //Al terminar de crear las pantallas, indico la actual.
+    pantallaActual = pantallas[0];
+  }
+
+  void dibujar() {
+    pantallaActual.dibujar();
+  }
+
+  void cargarFondos() {
+    for (int i=0; i < cantidadPantallas; i++) {
+      fondos[i] = loadImage("imagen" + i + ".png");
+    }
+  }
+
+  void mouseClicked() {
+    int pantallaAIr = pantallaActual.mouseClicked();
+    if (pantallaAIr != -1) {
+      pantallaActual = pantallas[pantallaAIr];
+    }
+    creditos.inicioPosYcreditos();
+  }
+
+  void teclaPresionada() {
+    if (key == 'r') {
+      pantallaActual = pantallas[0];
+    }
+    juego.teclaPresionada();
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0007" class="col s12 blue lighten-2"><span><pre><code>
+  PImage cactus, ave, personaje, castillo;
+
+class Juego {
+  int status;
+  VideoJuego videoJuego;
+  Resize resize = new Resize();
+  Pantalla pantallaActual;
+
+  Juego() {
+    castillo = loadImage("castillo.jpg");
+    cactus = loadImage("cactus.png");
+    ave = loadImage("ave.png");
+
+    inicializar();
+  }
+  void dibujar() {
+    if (status == 0) {
+      dibujoPantallaInicio();
+    } else if (status == 1) {
+      dibujoVideoJuego();
+    } else if (status == 2) {
+      image(castillo, 0, 0, resize.PorcentajeX(800), resize.PorcentajeY(600));
+      fill(0);
+      textSize(30);
+      dibujoFin("¡Llegaste al castillo!");
+    } else if (status == 3) {
+      fill(0);
+      textSize(30);
+      dibujoFin("¡La Armadura no resistió!");
+    }
+  }
+
+  void teclaPresionada() {
+    if (status == 0) {
+      status = 1;
+      //inicializar();
+    } else if (status == 1) {
+      videoJuego.teclaPresionada();
+    } else if (status == 2) {
+      controlador.pantallaActual = controlador.pantallas[16];
+      inicializar();
+    } else if (status == 3) {
+      controlador.pantallaActual = controlador.pantallas[19];
+      inicializar();
+    }
+  }
+
+  void dibujoPantallaInicio() {
+    fill(0);
+    textSize(40);
+    text("¡Hermano al rescate!", resize.PorcentajeX(width/2-140),
+    resize.PorcentajeY(80));
+    textSize(15);
+    text("Debes recorrer 1km hacia el castilo para salvar
+    \na tu hermana del peligro del Barba Azul\n", resize.PorcentajeX(width/2-100), resize.PorcentajeY(height/2-120));
+    fill(255);
+    text("Saltas con  'barra espaciadora'", resize.PorcentajeX(width/2-80),
+    resize.PorcentajeY(height-50));
+    textSize(15);
+    text("Advertencia: ¡Cuidado con la vegetacion del camino!",
+    resize.PorcentajeX(width/2-130), resize.PorcentajeY(height-80));
+    fill(255, 255, 255, 90);
+    text("Presiona una Tecla para iniciar", resize.PorcentajeX(width/2-80),
+    resize.PorcentajeY(height-20));
+  }
+
+  void dibujoVideoJuego() {
+    videoJuego.dibujar(); //controlar Ganar o Perder
+    if (videoJuego.controlarGanarOPerder() == 1) {
+      status = 2;
+    } else if (videoJuego.controlarGanarOPerder() == 2) {
+      status = 3;
+    }
+  }
+
+  void dibujoFin(String mensaje) {
+    textSize(40);
+    text(mensaje, resize.PorcentajeX(width/2)-160, resize.PorcentajeY(height/2));
+    textSize(25);
+    text("Presiona tecla para continuar la historia", resize.PorcentajeX(width/2-170),
+    resize.PorcentajeY(height/2+280));
+  }
+
+  void inicializar() {
+    videoJuego = new VideoJuego();
+    status = 0;
+  }
+} </code></pre></span></div>
+<div id="test-swipe-0008" class="col s12 red lighten-2"><span><pre><code>
+class Jugador {
+  float tam;
+  float x;
+  float y;
+  float yvel;
+  float gravedad;
+  int num;
+  PImage [] personaje = new PImage[5];
+  Resize resize = new Resize();
+
+  Jugador() {
+    for (int i=0; i < personaje.length; i++) {
+      personaje[i] = loadImage("personaje"+i+".png");
+    }
+    this.tam = resize.PorcentajeY(100); //tamaño personaje
+    this.x = resize.PorcentajeY(50); //posX
+    this.y = resize.PorcentajeY(500); //posY (height - tam)
+    this.yvel = resize.PorcentajeY(0);
+    this.gravedad = resize.PorcentajeY(3); //simulacion gravedad
+  }
+
+  void teclaPresionada() {
+    if (y == resize.PorcentajeY(500)) {
+      yvel = resize.PorcentajeY(-25); //altura del salto
+    }
+  }
+  void saltar() {
+    y += yvel; //salto
+    yvel += gravedad; //caida
+    y = constrain(y, resize.PorcentajeY(-250), resize.PorcentajeY(500));
+    //limite de caida al suelo
+  }
+
+  void dibujar() {
+    image(personaje[num], x, y, resize.PorcentajeX(100), resize.PorcentajeY(100));
+    num = num%4;
+    if (frameCount%2==0) {
+      num++;
+    }
+  }
+  boolean choque(Obstaculo obstaculo) { //ubicacion de cactus al momento de choque
+    float x1 = x + resize.PorcentajeX(obstaculo.tam);
+    float y1 = y + resize.PorcentajeY(obstaculo.tam);
+    float x2 = resize.PorcentajeX(obstaculo.posX) + resize.PorcentajeX(obstaculo.tam);
+    float y2 = resize.PorcentajeY(obstaculo.posY) + resize.PorcentajeY(obstaculo.tam);
+    return choque(x1, y1, x2, y2);
+  }
+  boolean choque(Ave ave) { //ubicacion de ave al momento de choque
+    float x1 = x + resize.PorcentajeX(ave.tam);
+    float y1 = y + resize.PorcentajeY(ave.tam);
+    float x2 = resize.PorcentajeX(ave.posX) + resize.PorcentajeX(ave.tam);
+    float y2 = resize.PorcentajeY(ave.posY) + resize.PorcentajeY(ave.tam-100);
+    return choque(x1, y1, x2, y2);
+  }
+
+  boolean choque (float x1, float y1, float x2, float y2) {
+    if ( dist(x1, y1, x2, y2) <= tam/2-20) { //menor o igual que
+      return true;
+    }
+    return false;
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0009" class="col s12 blue lighten-2"><span><pre><code>
+  class Obstaculo {
+  int posX, posY, velocidad, tam;
+  Resize resize = new Resize();
+
+  Obstaculo(int p_posX) {
+    this.posX = p_posX;
+    this.posY = 500;
+    velocidad = 15;
+    this.tam = 100;
+  }
+
+
+  void dibujar() {
+    image(cactus, resize.PorcentajeX(posX), resize.PorcentajeY(posY),
+    resize.PorcentajeX(tam), resize.PorcentajeY(tam));
+    posX -= velocidad;
+  }
+  void moverEnX(int p_posX) {
+    posX = p_posX;
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0010" class="col s12 red lighten-2"><span><pre><code>class Pantalla {
+  Boton[] botones;
+  PImage fondo;
+  String textoPantalla;
+  String textoRegreso;
+  Boton boton1;
+  Boton boton2;
+  Creditos creditos;
+  Juego juego;
+  Resize resize = new Resize();
+
+  Pantalla(PImage fondo, String textoPantalla, Boton boton1, Boton boton2,
+  Creditos creditos, Juego juego) {
+    this.fondo = fondo;
+    this.textoPantalla = textoPantalla;
+    this.boton1 = boton1;
+    this.boton2 = boton2;
+    this.creditos = creditos;
+    this.juego = juego;
+  }
+
+  void dibujar() {
+    image(this.fondo, resize.PorcentajeX(0), resize.PorcentajeY(0),
+    resize.PorcentajeX(800), resize.PorcentajeY(600));
+
+    fill(255);
+    textSize(25);
+    text(this.textoPantalla, resize.PorcentajeX(100), resize.PorcentajeY(100));
+
+    if (boton1 != null) {
+      boton1.dibujar();
+    }
+    if (boton2 != null) {
+      boton2.dibujar();
+    }
+    if (creditos != null) {
+      creditos.dibujar();
+    }
+    if (juego !=null) {
+      juego.dibujar();
+    }
+  }
+
+  int mouseClicked() {
+    int pantallaAIr = -1;
+
+    if (boton1 != null) {
+      pantallaAIr = boton1.mouseClicked();
+    }
+
+    if (boton2 != null && pantallaAIr == -1) {
+      pantallaAIr = boton2.mouseClicked();
+    }
+    return pantallaAIr;
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0011" class="col s12 green lighten-2"><span><pre><code>
+class Textos {
+  PFont fuente;
+  String textosPantallas [];
+  String textosPantallaBotones [][];
+  //String textoCreditos [][];
+
+  Textos() {
+    textosPantallas = new String [20];
+    textosPantallaBotones = new String [20][2];
+    fuente = loadFont("Calibri-Italic-48.vlw");
+    textFont(fuente);
+
+    inicializarTextosPantallas();
+    inicializarTextosBotones();
+  }
+
+  void inicializarTextosPantallas() {
+    textosPantallas[0] = "                                           Barba Azul\n
+                                      Charles Perrault, 1695";
+    textosPantallas[1] = "";
+    textosPantallas[2] = "Barba azul era un hombre lleno de riquezas de la ciudad,
+    \nposeia un gran castillo que se encontraba\nen un lugar muy codicioso.
+    \n Por una extraña razon era un\nhombre el cual habia enviudado 7 veces
+    \npero siempre se atribuyeron los hecho a situaciones naturales.
+    \n En este día, Barba Azul se propuso buscar una
+    \nnueva esposa a la cual debia seducir por sus enormes riquezas,
+    \nya que, no era un hombre muy atractivo";
+    textosPantallas[3] = "Finalmente barba azul encuentra a
+    \ndos hermanas no muy convencidas\nde la propuesta de casarse con el.
+    \n ¿Aceptas casarte con Barba Azul?";
+    textosPantallas[4] = "Pese a la respuesta negativa de las hermanas,
+    \nBarba Azul continua su busqueda.\n Aunque nunca tuvo la suerte y al pasar los años,
+    \nmurió en soledad.";
+    textosPantallas[5] = "Ella acepta y rapidamente Barba Azul organiza
+    \nuna boda en su castillo.";
+    textosPantallas[6] = "Pasaron los meses juntos y a Barba Azul le surge un viaje a la
+    \n ciudad vecina. Le pregunta a la Doncella si quiere ir con el";
+    textosPantallas[7] = "Se van de viaje juntos pero por la noche
+    \nuna fuerte tormenta los hace\n caer por un barranco y murieron.";
+    textosPantallas[8] = "La doncella decide quedarse en el castillo, entonces
+    \n Barba Azul le da llaves pero este le aclara que no debe
+    \n usar una llave en especifico. Ella asiente y Barba Azul\n parte hacia su viaje.";
+    textosPantallas[9] = "Para hacer la espera de su marido mas
+    \nllevadera, la doncella invita a sus\nfamiliares al castillo";
+    textosPantallas[10] = "En la noche la doncella observa el llavero y
+    \n le llama la atencion la llave prohibida.\n¿Intenta abrir la llave?";
+    textosPantallas[11] = "Sigue con la reunion familiar y
+    \n se olvida de las llaves por el momento";
+    textosPantallas[12] = "Al poco tiempo Barba Azul\nvuelve del viaje y se
+    \n reencuentra con su esposa,\n quien lo estaba esperando";
+    textosPantallas[13] = "No aguantó su curiosidad y abrió la puerta.
+    \n Lo que llevo a descubrir el secreto de Barba Azul.
+    \n Escondia los cuerpos de sus 7 esposas muertas\n que extrañamente habian fallecido";
+    textosPantallas[14] = "";
+    textosPantallas[15] = "En ese momento los hermanos justo
+    \n pasan por la habitacion y\nla encuentran en peligro...";
+    textosPantallas[16] = "LLega el hermano y mata a Barba Azul
+    \n para luego liberar a su hermana\n de esa sombría habitación. FIN";
+    textosPantallas[17] = "   Barba Azul al pedirle\n  las llaves, la doncella
+    \n pregunta que hay en\nla puerta prohibida";
+    textosPantallas[18] = "Comienzan una discusion porque \n no quiere revelarle su secreto.
+    \n Ante la negacion de Barba Azul,\n la doncella intenta\nabrir la puerta";
+    textosPantallas[19] = "Barba Azul se queda sin opcion y mata a la
+    \ndoncella antes de que pueda hacer algo.";
+  }
+
+
+  void inicializarTextosBotones() {
+    textosPantallaBotones[0][0] = "Iniciar";
+    textosPantallaBotones[0][1] = "Creditos";
+
+    textosPantallaBotones[1][0] = "click para volver";
+
+    textosPantallaBotones[2][0] = "Siguiente";
+
+    textosPantallaBotones[3][0] = "Acepta";
+    textosPantallaBotones[3][1] = "Se niega";
+
+    textosPantallaBotones[4][0] = "click para volver";
+
+    textosPantallaBotones[5][0] = "Siguiente";
+
+    textosPantallaBotones[6][0] = "Van de viaje";
+    textosPantallaBotones[6][1] = "Se queda";
+
+    textosPantallaBotones[7][0] = "click para volver";
+
+    textosPantallaBotones[8][0] = "Siguiente";
+
+    textosPantallaBotones[9][0] = "Siguiente";
+
+    textosPantallaBotones[10][0] = "La abre";
+    textosPantallaBotones[10][1] = "No la abre";
+
+    textosPantallaBotones[11][0] = "Siguiente";
+
+    textosPantallaBotones[12][0] = "Siguiente";
+
+    textosPantallaBotones[13][0] = "Siguiente";
+
+    textosPantallaBotones[14][0] = "Se salva";//juego
+    textosPantallaBotones[14][1] = "La mata";//juego
+
+    textosPantallaBotones[15][0] = "Siguiente";//gano en el juego
+
+    textosPantallaBotones[16][0] = "Click para volver";
+
+    textosPantallaBotones[17][0] = "Siguiente";
+
+    textosPantallaBotones[18][0] = "Siguiente";
+
+    textosPantallaBotones[19][0] = "Click para volver";//perdio en el juego
+  }
+
+  String getTextoParaPantalla(int pantalla) {
+    return textosPantallas[pantalla];
+  }
+
+  String getTextoParaPantallaBoton(int pantalla, int boton) {
+    return textosPantallaBotones[pantalla][boton];
+  }
+
+  void creditos(){
+    text(textosPantallas[1],0,0);
+    }
+  }
+ </code></pre></span></div>
+  <div id="test-swipe-0012" class="col s12 yellow lighten-2"><span><pre><code>
+    class VideoJuego {
+    Resize resize = new Resize();
+    int cantidadEnemigos = 30;
+    int posX, posY, tamX, tamY;
+    int tam;
+
+    Jugador jugador;
+    Contador contador;
+    Armadura armadura;
+    Obstaculo [] obstaculo = new Obstaculo [cantidadEnemigos];
+    Ave [] ave = new Ave [cantidadEnemigos];
+
+    VideoJuego() {
+      posX = 800;
+      tam = 700;
+
+
+      inicializar();
+    }
+
+    void dibujar() {
+      dibujoVideoJuego();
+    }
+
+    void dibujarObstaculo() {
+      for (int i=0; i < cantidadEnemigos; i++ ) {
+        obstaculo[i].dibujar();
+        if (jugador.choque(obstaculo[i])) {
+          armadura.bajarArmadura();
+          obstaculo[i].moverEnX(generarPosicionEnemigo());
+        }
+      }
+    }
+
+    void dibujarAve() {
+      for (int i=0; i < cantidadEnemigos; i++ ) {
+        ave[i].dibujar();
+        if (jugador.choque(ave[i])) {
+          armadura.bajarArmadura();
+          ave[i].moverEnX(generarPosicionAve());
+        }
+      }
+    }
+
+    void teclaPresionada() {
+      if (keyCode == ' ') {
+        jugador.teclaPresionada();
+      }
+    }
+
+    int generarPosicionEnemigo() {
+      return round(random(1000, tam));
+    }
+    int generarPosicionAve() {
+      return round(random(1000, 2000));
+    }
+
+    void dibujoVideoJuego() {
+      dibujarObstaculo();
+      dibujarAve();
+      jugador.dibujar();
+      contador.dibujar();
+      armadura.dibujar();
+      jugador.saltar();
+    }
+
+    int controlarGanarOPerder() {
+      if (contador.haGanado()) {
+        return 1; //Ganar
+      } else if (armadura.haPerdido()) {
+        return 2; // Perder
+      }
+      return 0; //No pasa nada
+    }
+
+    void inicializar() {
+      jugador = new Jugador();
+      for (int i=0; i < cantidadEnemigos; i++ ) {
+        obstaculo[i] = new Obstaculo(resize.PorcentajeX(posX + i*tam));
+        ave[i] = new Ave(resize.PorcentajeX(posX + i*tam+1000));
+      }
+      armadura = new Armadura(50, 100);
+      armadura.bajarArmadura();
+      contador = new Contador(50, 50);
+      contador.incrementar();
+    }
+  }</code></pre></span></div>
+<div id="test-swipe-0013" class="col s12 grey lighten-2"><span><pre><code>
+  class Creditos {
+  int posX, posY, ancho, alto, pantallaAIr;
+  String texto;
+  Resize resize = new Resize();
+
+  Creditos(int posX, int posYinicial) {
+    this.posX = posX;
+    this.posY = posYinicial;
+  }
+
+  void dibujar() {
+    fill(255);
+    textSize(20);
+    text("Escrito por: Charles Perrault\n Protagonistas:  Barba Azul\n
+                     Doncella\n Musica:             Ennio Morricone\n Realizado por:   Martin" +
+      "Fortain\n Realizado para: LMM1\n Edición:             Processing\n
+                          Photoshop", resize.PorcentajeX(300),resize.PorcentajeY(posY));
+    movPosY();
+  }
+
+  void movPosY() {
+    posY--;
+  }
+
+  void inicioPosYcreditos() {
+      posY = 550;
+  }
+}</code></pre></span></div>
+<div id="test-swipe-0014" class="col s12 orange lighten-2"><span><pre><code>
+  class Resize {
+
+  Resize() {
+  }
+  int PorcentajeX(int valor) {
+    return round(map(valor, 0, 800, 0, width));
+  }
+  int PorcentajeY(int valor) {
+    return round(map(valor, 0, 600, 0, height));
+  }
+}</code></pre></span></div>
+
+
+  </div>
+
+
+                  <!--PIE DE PAGINA-->
+                  <div class="row">
+                    <div class="col1 s12">
+                      <footer class="page-footer">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col l6 s12">
+                              <h5 class="white-text">Martin Fortain</h5>
+                              <p class="grey-text text-lighten-4">Legajo: 85179/2</p>
+                              <p class="grey-text text-lighten-4">Dni: 40293225</p>
+                              <p class="grey-text text-lighten-4">Localidad: General Alvear</p>
+                            </div>
+                            <div class="col l4 offset-l2 s12">
+                              <h5 class="white-text">Tecnología multimedial 1</h5>
+                              <a href="https://github.com/hidrogen09/tecnomultimedia"class="vinculoRepositorio">GitHub Repositorio</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="footer-copyright">
+                          <div class="container">
+                            <h5 class="white-text center">Licenciatura en Diseño Multimedial</h5>
+                          </div>
+                        </div>
+                      </footer>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+              <!--JavaScript at end of body for optimized loading-->
+              <script type="text/javascript" src="js/jquery.min.js"></script>
+              <script type="text/javascript" src="js/materialize.min.js"></script>
+              <script type="text/javascript" src="js/inicia.js"></script>
+              <!---------------------------------------------------->
+              <a href="#up" class="simplescrollup__button simplescrollup__button--hide">
+                <img src="img/flechita1.png" alt="scroll up" width="50">
+              </a>
+            <script src="js/simplescrollup.js"></script>
+            </body>
+            </html>
